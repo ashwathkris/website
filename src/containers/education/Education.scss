@@ -1,0 +1,106 @@
+.education-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px 0px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.education-section > * {
+  flex: 1;
+  margin-bottom: 30px;
+  white-space: pre-wrap;
+}
+
+.education-card-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 1380px) {
+  .education-card-container {
+    padding-top: 0px;
+  }
+  .education-heading {
+    font-size: 40px;
+  }
+  .education-text-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-card-container {
+    padding-top: 0px;
+  }
+  .education-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .education-text-subtitle {
+    font-size: 16px;
+  }
+}
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.scrolling-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrolling-list {
+  display: flex;
+  animation: marquee 20s linear infinite; /* Adjust duration as needed */
+  white-space: nowrap;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrolling-list:hover {
+  animation-play-state: paused;
+}
+
+.scrolling-list p {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.scrolling-list-2 {
+  display: flex;
+  animation: marquee 45s linear infinite; /* Adjust duration as needed */
+  white-space: nowrap;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrolling-list-2:hover {
+  animation-play-state: paused;
+}
+
+.scrolling-list-2 p {
+  display: inline-block;
+  padding-right: 20px;
+}
