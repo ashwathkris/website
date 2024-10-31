@@ -26,7 +26,7 @@ const greeting = {
     "I'm an aspiring software engineer pursuing a Master’s in Computer Science at the University of Illinois Urbana-Champaign. Proficient in Java, Python, and React, I am exploring the potential of LLMs to build impactful, growth-driven products. I’m actively seeking full-time opportunities starting June 2025, where I can apply my expertise in new and challenging environments."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1_w0QxaT_jsMJL7Csq0cEsFE3_tWnZmxW/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Y78i2rAmoyWJXOlW5_iwsqNpQ4U7xbk-/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -245,7 +245,7 @@ const githubProjects = {
     {
       image: require("./assets/images/courser.png"),
       projectName: "Enrollmints: An improved Course Registration system for Computer Science degrees at UIUC",
-      projectDesc: "Technologies: React.js, Flask, Google Cloud Platform, SQL",
+      projectDesc: "Technologies: React.js, Flask, Google Cloud Platform, PostgreSQL",
                     
       footerLink: [
         {
@@ -253,6 +253,19 @@ const githubProjects = {
           url: "https://github.com/ashwathkris/Enrollmints"
         },
         {name: "Github", url: "https://github.com/ashwathkris/Enrollmints"}
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/sent2img.png"),
+      projectName: "Sent2Img: A Text-based Image Search Engine on the Flickr8k dataset",
+      projectDesc: "Technologies: Tensorflow, OpenCV, Flask, HTML, Okapi BM25",
+      footerLink: [
+        {
+          name: "Demo",
+          url: "https://drive.google.com/file/d/1ocgiXuJMIZt5jnyTM-gKvQha7tGb9Q9i/view"
+        },
+        {name: "Github", url: "https://github.com/ashwathkris/Text-based-Image-retrieval-using-Image-Captioning"}
         //  you can add extra buttons here.
       ]
     },
@@ -269,19 +282,19 @@ const githubProjects = {
         //  you can add extra buttons here.
       ]
     },
-    // {
-    //   image: require("./assets/images/gym.png"),
-    //   projectName: "Sent2Img",
-    //   projectDesc: "A Text-based Image Retreival Engine on the Flickr8k dataset",
-    //   footerLink: [
-    //     {
-    //       name: "Demo",
-    //       url: "https://drive.google.com/file/d/1vF2wl3y8MT22VRFeOlDV65trtuSg1ajU/view"
-    //     },
-    //     {name: "Github", url: "https://github.com/ashwathkris/Real-Time-Gym-Instructor"}
-    //     //  you can add extra buttons here.
-    //   ]
-    // },
+    {
+      image: require("./assets/images/bonbot.png"),
+      projectName: "BonBot: A Chatbot for Mental Health",
+      projectDesc: "Technologies: Flask, React.js, NLP",
+      footerLink: [
+        {
+          name: "Demo",
+          url: "https://www.youtube.com/watch?v=ARw1DvzMrKM"
+        },
+        {name: "Github", url: "https://github.com/ashwathkris/BonBot-A-chatbot-for-Mental-health"}
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true
 }
@@ -323,7 +336,7 @@ const achievementSection = {
     },
     {
       title: "Sign2Sign: A Novel Approach Towards Real-Time ASL to ISL Translation",
-      subtitle: "ETTIS 2022 (Spring Nature)",
+      subtitle: "ETTIS 2022 (Springer Nature)",
       image: require("./assets/images/sign2sign.png"),
       footerLink: [
         {name: "View Publication", url: "https://link.springer.com/chapter/10.1007/978-981-19-4182-5_4"},
