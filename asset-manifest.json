@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.da23503b.css",
-    "main.js": "/website/static/js/main.01787bad.js",
+    "main.js": "/website/static/js/main.2f44df67.js",
     "static/css/990.c6a7ee28.chunk.css": "/website/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.d2f74759.chunk.js": "/website/static/js/990.d2f74759.chunk.js",
     "static/media/bonbot.png": "/website/static/media/bonbot.b4c5e9ee458e98650d45.png",
@@ -12,7 +12,6 @@
     "static/media/ensemble.png": "/website/static/media/ensemble.d8cb0d09ea9e977ffd6a.png",
     "static/media/Montserrat-Regular.ttf": "/website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/sign2sign.png": "/website/static/media/sign2sign.73c283c9b8c900d3e606.png",
-    "static/media/zebraLogo.jpg": "/website/static/media/zebraLogo.e062e91af72bccd57ddc.jpg",
     "static/media/pesuLogo.png": "/website/static/media/pesuLogo.5530638846b9a51e76f1.png",
     "static/media/courser.png": "/website/static/media/courser.1e1607acfb52c989592f.png",
     "static/media/resume.pdf": "/website/static/media/resume.fe46d212747212140144.pdf",
@@ -24,12 +23,12 @@
     "static/media/skill.svg": "/website/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/website/index.html",
     "main.da23503b.css.map": "/website/static/css/main.da23503b.css.map",
-    "main.01787bad.js.map": "/website/static/js/main.01787bad.js.map",
+    "main.2f44df67.js.map": "/website/static/js/main.2f44df67.js.map",
     "990.c6a7ee28.chunk.css.map": "/website/static/css/990.c6a7ee28.chunk.css.map",
     "990.d2f74759.chunk.js.map": "/website/static/js/990.d2f74759.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da23503b.css",
-    "static/js/main.01787bad.js"
+    "static/js/main.2f44df67.js"
   ]
 }
