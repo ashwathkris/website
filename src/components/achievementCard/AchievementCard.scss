@@ -3,7 +3,7 @@
 .card-image {
   max-width: 100%;
   height: 90%;
-  width: 50%;
+  width: 60%;
   // background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
 }
@@ -19,16 +19,20 @@
   font-size: 0.85rem;
   line-height: 1.5rem;
 }
+
 .certificate-card {
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  overflow: hidden; /* Prevents content overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: all 0.3s ease;
 }
+
 .certificate-detail-div {
   text-align: center;
 }
@@ -51,12 +55,16 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+
 .certificate-card-footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0.5rem;
+  overflow: hidden; /* Contains footer elements within card */
 }
+
 .certificate-card-footer span.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
