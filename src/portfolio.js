@@ -210,7 +210,7 @@ const workExperiences = {
     {
       role: "Software Development Intern",
       company: "Zebra Technologies (Motorola) ",
-      companylogo: require("./assets/images/zebra.png"),
+      companylogo: require("./assets/images/zebraLogo.jpg"),
       date: "January 2023 - July 2023",
       descBullets: [
         "Created a device tracking portal using ReactJS and Firebase, designing 8 Firebase functions to enable Walmart warehouse managers to monitor the status of Zebra devices, resulting in a 12.5% increase in operational efficiency",
