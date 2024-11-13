@@ -26,7 +26,7 @@ const greeting = {
     "I'm an aspiring software engineer pursuing a Master’s in Computer Science at the University of Illinois Urbana-Champaign. Proficient in Java, Python, and React, I am exploring the potential of LLMs to build impactful, growth-driven products. I’m actively seeking full-time opportunities starting June 2025, where I can apply my expertise in new and challenging environments."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Y78i2rAmoyWJXOlW5_iwsqNpQ4U7xbk-/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oqNAgnl5B2z35gES8DGQ2ruVx-iGnWbU/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
