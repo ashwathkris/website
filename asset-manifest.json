@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.da23503b.css",
-    "main.js": "/website/static/js/main.f4b4b05f.js",
+    "main.js": "/website/static/js/main.fd44290e.js",
     "static/css/990.c6a7ee28.chunk.css": "/website/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.d2f74759.chunk.js": "/website/static/js/990.d2f74759.chunk.js",
     "static/media/bonbot.png": "/website/static/media/bonbot.b4c5e9ee458e98650d45.png",
@@ -13,7 +13,7 @@
     "static/media/Montserrat-Regular.ttf": "/website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/sign2sign.png": "/website/static/media/sign2sign.73c283c9b8c900d3e606.png",
     "static/media/zebraLogo.jpg": "/website/static/media/zebraLogo.e062e91af72bccd57ddc.jpg",
-    "static/media/resume.pdf": "/website/static/media/resume.da94261e36d230d487a5.pdf",
+    "static/media/resume.pdf": "/website/static/media/resume.1da461ba84982a44653f.pdf",
     "static/media/pesuLogo.png": "/website/static/media/pesuLogo.5530638846b9a51e76f1.png",
     "static/media/courser.png": "/website/static/media/courser.1e1607acfb52c989592f.png",
     "static/media/Agustina.woff": "/website/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -24,12 +24,12 @@
     "static/media/skill.svg": "/website/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/website/index.html",
     "main.da23503b.css.map": "/website/static/css/main.da23503b.css.map",
-    "main.f4b4b05f.js.map": "/website/static/js/main.f4b4b05f.js.map",
+    "main.fd44290e.js.map": "/website/static/js/main.fd44290e.js.map",
     "990.c6a7ee28.chunk.css.map": "/website/static/css/990.c6a7ee28.chunk.css.map",
     "990.d2f74759.chunk.js.map": "/website/static/js/990.d2f74759.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da23503b.css",
-    "static/js/main.f4b4b05f.js"
+    "static/js/main.fd44290e.js"
   ]
 }
