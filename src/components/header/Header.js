@@ -63,6 +63,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
+
+          <li>
+            <a href="https://drive.google.com/file/d/1BPjloQSSH2hjY98fVlEVJrSN0JnW8CxE/view?usp=drive_link">Resume</a>
+          </li>
+
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
